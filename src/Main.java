@@ -8,6 +8,7 @@ public class Main {
         Scanner scan1 = new Scanner(System.in);
         Scanner scan2 = new Scanner(System.in);
 
+        //数字を打ち込む
         while(true){
             System.out.println("数字を入力してください。");
             inputNum = scan1.nextInt();
@@ -20,6 +21,7 @@ public class Main {
             }
         }
 
+        //電卓（合計と平均）
         while(true){
             System.out.println("コマンドを入力してください。");
             String cmd = "";
